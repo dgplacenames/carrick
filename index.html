@@ -123,7 +123,7 @@
                 lineJoin: 'miter',
                 weight: 1.0, 
                 fillOpacity: 0,
-                interactive: true,
+                interactive: false,
             }
         }
         map.createPane('pane_Parish_3');
@@ -131,7 +131,7 @@
         map.getPane('pane_Parish_3').style['mix-blend-mode'] = 'normal';
         var layer_Parish_3 = new L.geoJson(json_Parish_3, {
             attribution: '',
-            interactive: true,
+            interactive: false,
             dataVar: 'json_Parish_3',
             layerName: 'layer_Parish_3',
             pane: 'pane_Parish_3',
